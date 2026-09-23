@@ -2,8 +2,7 @@
 
 Kev-0.8B plays Snake in a desktop window, and you can watch its decision graph fire as it thinks, like Jev's Doom demo.
 
-![Kev playing snake, graph firing](demo.mp4)
-
+<video src="assets/demo.mp4" controls width="100%"></video>
 It's one Python file. The window uses tkinter and there's no web server or browser. On every move the game writes the board out as text. Kev reads that text once, then answers a small graph of questions: what the goal is, which apple to go for, how risky the position is, and which way to move. Each node in the graph lights up at the moment it is actually computed.
 
 
